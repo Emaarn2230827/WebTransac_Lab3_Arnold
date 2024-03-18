@@ -10,71 +10,23 @@
  
 </head>
 <body>   
-    <header>
-        <div class="container-fluid">        
-            <nav class="row  align-items-center navbar navbar-expand-lg navbar-dark">
-                <p class="col-6 col-lg-2  align-items-left"><img src="..\images/LogoCEPI.PNG" class="navbar-brand" alt="logo" id="logo"/></p>
-                <button class="col-6 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="col-6 col-lg-10  align-items-center collapse navbar-collapse"  id="navbarNav" >
-                    <ul class="navbar-nav row align-items-center " >
-                        <li class="nav-item col-lg-3 " >
-                            <a class="nav-link mx-5"  href="index.html">Menu1</a>
-                        </li>
-                        <li class="nav-item col-lg-3">
-                                <a class="nav-link mx-5 " href="#">Menu2</a>
-                        </li>
-                        <li class="nav-item col-lg-2">
-                            <a class="nav-link mx-5" href="#">Menu3</a>
-                        </li>
-                        <li class="nav-item col-lg-2">
-                            <a class="nav-link mx-5" href="#">Menu4</a>
-                        </li>
-                        <li class="nav-item col-lg-2">
-                            <a class="nav-link mx-5" href="#"><img src="..\images/logoConnexion.png" alt="logoConnexion" id="logoConnexion"/></a> 
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>         
+    <div id="root">
+    </div>
+   
     <br/>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="form-group has-search col-12 col-lg-6">
-                <span class="fa fa-search form-control-feedback"></span>
-                <input type="text" class="form-control">        
-            </div>  
-            <p class="col-6 col-lg-2 text-center" > Trier par:</p>
-            <p class="col-6 col-lg-4" >
-                <select class="form-select">
-                    <option> select</option>
-                </select>
-            </p>
-        </div>
-    </div>
 
-    <div class="container-fluid " >
-        <div class="row   align-items-center" id="blogContainer">
 
-        </div>
-    </div>
-    <footer>
-        <br/>
-        <div class="container-fluid ">
-            <div class="row">
-                <p class="col-5 text-right"  ><a href="https://www.facebook.com/" ><img src="..\images/facebook.png" class="logoReso" alt="facebook" /></a></p>
-                <p class="col-2 text-center"><a href="https://twitter.com/?lang=fr"><img src="..\images/twitterLogo.png" class="logoReso"alt="twitter" /></a> </p>
-                <p class="col-5"><a href="https://www.instagram.com/"><img src="..\images/inLogo.png" alt="in" class="logoReso"alt="twitter"/></a></p> 
-            </div>
-            <br/>
-            <div class="row text-center" >
-                <p >Centre d'Expertise et de Perfectionnement en Informatique </p>
-                <p>2022.</p>
-            </div>
-        </div>     
-    </footer>   
+   
+        
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="../js/Header.js" type="text/babel"></script>
+    <script src="../js/BlogCard.js" type="text/babel"></script>
+    <script src="../js/BlogList.js" type="text/babel"></script>
+    <script src="../js/Footer.js" type="text/babel"></script>
+
+    <script src="../js/index.js" type="text/babel"></script>
     <script src="..\js/gestionData.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
