@@ -1,0 +1,6 @@
+Élément de correction du laboratoire 2 : 
+
+ 
+
+Correction de l'emplacement du fichier package.json
+ 
