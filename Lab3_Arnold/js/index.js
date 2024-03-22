@@ -24,8 +24,7 @@ function App()
 {
     return <> 
            <Header />
-           <AfficheForm />
-           <BlogCard titre={"blog test"}> Bonjour le monde  </BlogCard>
+           <AfficheForm />          
            <BlogList />
            <Footer />
         
