@@ -21,10 +21,12 @@ function BlogDetails({ publicationId }) {
                 </figure>
                 <br />
                 <p className="col-12 col-lg-12">{publication.contenu}</p>
+                <p className="col-12 col-lg-12">{publication.contenu}</p>
                 <figure className="col-12 col-lg-12 text-center">
                     <img src="../images/blog3.jpg" width="195px" height="130px" alt="communication" />
                     <figcaption>communication</figcaption>
                 </figure>
+                <p className="col-12 col-lg-12">{publication.contenu}</p>
                 <p className="col-12 col-lg-12">{publication.contenu}</p>
                 </div>
             

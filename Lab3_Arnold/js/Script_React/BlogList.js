@@ -1,5 +1,4 @@
 
-
 function BlogList() {
     const [publications, setPublications] = React.useState([]);
 

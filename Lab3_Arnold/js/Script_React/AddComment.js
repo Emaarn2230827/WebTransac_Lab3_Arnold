@@ -8,6 +8,7 @@ function AddComment({ idPub }) {
 
     function handleSubmit(event) {
         event.preventDefault();
+
         fetch(`http://localhost:3000/commentaires`, {
             method: 'POST',
             body: JSON.stringify({
@@ -34,12 +35,11 @@ function AddComment({ idPub }) {
             <div className="row">
                 <form className="form-group" onSubmit={handleSubmit}>
                     <label htmlFor="comment">Commentaires</label><br/><br/>
-                    <textarea className="form-control" rows="5" value={commentaire} onChange={handleName}></textarea><br/>
+                    <textarea className="form-control" rows="5" value={commentaire} onChange={handleName} placeholder="Entrez votre commentaire..."></textarea><br/>
                     <p className="col-12 text-right"><button type="submit" className="btn btn-primary" id="ajouterCommentaire">Submit</button></p>
                 </form>
             </div>
             <div className="row">
-                {/* Afficher les commentaires */}
                 {commentaires.map(commentaire => (
                     <Commentaire key={commentaire.id} commentaire={commentaire.contenu} />
                 ))}

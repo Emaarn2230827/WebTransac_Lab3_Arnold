@@ -14,7 +14,7 @@ function Footer() {
                         <a href="https://www.instagram.com/"><img src="../images/inLogo.png" className="logoReso" alt="In" /></a>
                     </p>
                 </div>
-                <br /> {/* Déplacé le deuxième <br /> avant la deuxième div.row */}
+                <br /> 
                 <div className="row text-center">
                     <p>Centre d'Expertise et de Perfectionnement en Informatique</p>
                     <p>2022.</p>
